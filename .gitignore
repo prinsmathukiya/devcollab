@@ -1,0 +1,49 @@
+# Dependencies
+node_modules/
+
+# GitHub
+.github/
+
+# Nested git repos
+back-end/.git/
+front-end/.git/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Build outputs
+dist/
+build/
+.next/
+out/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing
+coverage/
+
+# Docker
+docker-compose.override.yml
+
+# Prisma
+back-end/prisma/migrations/*.sql.backup
+
+# Temporary files
+*.tmp
+*.temp
